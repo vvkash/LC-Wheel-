@@ -1,6 +1,8 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/roulette-wheel-app/$1" }
-  ],
-  "outputDirectory": "roulette-wheel-app/build"
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
