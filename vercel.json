@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/roulette-wheel-app/$1" }
+  ]
+}
